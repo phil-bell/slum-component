@@ -1,0 +1,29 @@
+{
+  "name": "slum-button",
+  "version": "0.0.1",
+  "description": "Button component from the Slum component library",
+  "main": "main.js",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "yarn karma start --coverage --single-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phil-bell/slum-component.git"
+  },
+  "keywords": [
+    "web",
+    "component",
+    "javascript",
+    "button"
+  ],
+  "author": "Philip Bell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/phil-bell/slum-component/issues"
+  },
+  "homepage": "https://github.com/phil-bell/slum-component#readme"
+}
