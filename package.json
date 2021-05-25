@@ -1,6 +1,30 @@
 {
-  "name": "slum-component",
+  "name": "slum-ui",
+  "workspaces": [
+    "packages/*"
+  ],
+  "version": "1.0.0",
+  "description": "Slum component library of web components",
+  "main": "main.js",
+  "scripts": {
+    "test": "yarn karma start --coverage --single-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phil-bell/slum-ui.git"
+  },
+  "keywords": [
+    "web",
+    "component"
+  ],
+  "author": "Philip Bell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/phil-bell/slum-ui/issues"
+  },
+  "homepage": "https://github.com/phil-bell/slum-ui#readme",
   "dependencies": {
-    "lit": "^2.0.0-rc.2"
+    "storybook": "^6.2.9",
+    "@slum-ui/button": "1.0.0"
   }
 }
