@@ -1,10 +1,10 @@
-import { css } from lit
-import { LionButton } from '@lion/button';
+import { css } from "lit";
+import { LionButton } from "@lion/button";
 
-export class SlumButton extends LionButton{
-    static get styles() {
-        return css``
-    }
+export class SlumButton extends LionButton {
+  static get styles() {
+    return [super.styles, css``];
+  }
 }
 
-customElements.define("slum-button", SlumButton)
+customElements.define("slum-button", SlumButton);

@@ -27,7 +27,10 @@
   },
   "homepage": "https://github.com/phil-bell/slum-ui#readme",
   "dependencies": {
-    "lit": "^2.0.0-rc.2",
-    "@lion/button": "^0.12.0"
+    "@lion/button": "^0.12.0",
+    "lit": "^2.0.0-rc.2"
+  },
+  "devDependencies": {
+    "@open-wc/testing": "^2.5.33"
   }
 }
