@@ -1,2 +1,3 @@
-# slum-component
-Slum component library
+# slum-ui
+
+Slum ui component library
