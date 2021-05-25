@@ -1,6 +1,8 @@
 {
   "name": "slum-component",
   "dependencies": {
-    "lit": "^2.0.0-rc.2"
+    "@storybook/components": "^6.2.9",
+    "lit": "^2.0.0-rc.2",
+    "storybook": "^6.2.9"
   }
 }
