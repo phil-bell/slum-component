@@ -6,11 +6,6 @@
   "version": "1.0.0",
   "description": "Slum component library of web components",
   "main": "main.js",
-  "scripts": {
-    "test": "yarn karma start --coverage --single-run",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/phil-bell/slum-ui.git"
@@ -39,5 +34,10 @@
     "@storybook/web-components": "^6.2.9",
     "babel-loader": "^8.2.2",
     "lit-html": "^1.4.1"
+  },
+  "scripts": {
+    "test": "yarn karma start --coverage --single-run",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   }
 }
