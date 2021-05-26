@@ -12,6 +12,7 @@ export class SlumInput extends LionInput {
           --slum-pink: #ff487a;
           --slum-pink-dark: #fc3068;
           --slum-purple: #8719b3;
+          --slum-grey: #353535;
           --slum-grey-light: #c2c2c2;
           --slum-grey-lightest: #f3f3f3;
           --slum-white: white;
@@ -43,6 +44,7 @@ export class SlumInput extends LionInput {
           border: 2px solid var(--slum-grey-light);
           outline: none;
           font-family: var(--font-family);
+          color: var(--slum-grey);
         }
         ::slotted(input:focus) {
           box-shadow: 5px 5px 0 var(--border-color);
