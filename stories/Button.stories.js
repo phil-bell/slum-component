@@ -3,29 +3,39 @@ import "@slum-ui/button";
 
 export default {
   title: "SlumUI/Button",
-  argTypes: {},
+  argTypes: {
+    variant: {
+      control: {
+        type: "select",
+        options: [
+          "cyan-solid",
+          "cyan-outlined",
+          "cyan-transparent",
+          "pink-solid",
+          "pink-outlined",
+          "pink-transparent",
+          "purple-transparent",
+        ],
+      },
+    },
+    size: {
+      control: {
+        type: "select",
+        options: ["large", "medium", "small"],
+      },
+    },
+  },
 };
 
 const Template = (args) => {
-  return html` <slum-button>${args.label}</slum-button> `;
+  return html`
+    <slum-button variant="${args.variant}" size="${args.size}"
+      >${args.label}</slum-button
+    >
+  `;
 };
 
-export const Primary = Template.bind({});
-Primary.args = {
-  label: "SlumButton",
-};
-
-export const Secondary = Template.bind({});
-Secondary.args = {
-  label: "SlumButton",
-};
-
-export const Large = Template.bind({});
-Large.args = {
-  label: "SlumButton",
-};
-
-export const Small = Template.bind({});
-Small.args = {
+export const SlumButton = Template.bind({});
+SlumButton.args = {
   label: "SlumButton",
 };

@@ -36,6 +36,7 @@
     "lit-html": "^1.4.1"
   },
   "scripts": {
+    "start": "start-storybook -p 80",
     "test": "yarn karma start --coverage --single-run",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
