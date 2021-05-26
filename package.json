@@ -1,5 +1,5 @@
 {
-  "name": "slum-ui",
+  "name": "@slum-ui/library",
   "workspaces": [
     "packages/*"
   ],
