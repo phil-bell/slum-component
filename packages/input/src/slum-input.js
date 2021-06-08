@@ -64,9 +64,9 @@ export class SlumInput extends LionInput {
           color: var(--slum-input-after-color, transparent);
           content: "○";
           position: relative;
-          font-size: 38px;
-          right: 4px;
-          bottom: 28px;
+          font-size: 32px;
+          right: 32px;
+          bottom: 5px;
         }
         :host([variant="cyan"]) {
           --slum-input-border-color: var(--slum-cyan);
