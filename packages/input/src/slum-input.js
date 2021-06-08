@@ -62,11 +62,11 @@ export class SlumInput extends LionInput {
         }
         .input-group__input:after {
           color: var(--slum-input-after-color, transparent);
-          content: "○";
+          content: var(--slum-input-after-content);
           position: relative;
-          font-size: 32px;
-          right: 32px;
-          bottom: 5px;
+          font-size: 24px;
+          right: 34px;
+          top: 1px;
         }
         :host([variant="cyan"]) {
           --slum-input-border-color: var(--slum-cyan);
@@ -90,9 +90,11 @@ export class SlumInput extends LionInput {
           --slum-input-height: 35px;
         }
         :host([state="success"]) {
+          --slum-input-after-content: "👍";
           --slum-input-after-color: var(--slum-cyan);
         }
         :host([state="error"]) {
+          --slum-input-after-content: "💥";
           --slum-input-after-color: var(--slum-pink);
         }
       `,
