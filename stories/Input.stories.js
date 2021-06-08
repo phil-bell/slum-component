@@ -5,6 +5,7 @@ const code = `
 <slum-input
   placeholder="SlumInput"
   variant="pink"
+  size="small"
 ></slum-input>`;
 
 export default {
@@ -14,6 +15,18 @@ export default {
       control: {
         type: "select",
         options: ["cyan", "pink", "purple"],
+      },
+    },
+    size: {
+      control: {
+        type: "select",
+        options: ["small", "medium", "large"],
+      },
+    },
+    state: {
+      control: {
+        type: "select",
+        options: ["success", "error"],
       },
     },
   },
@@ -31,6 +44,8 @@ const Template = (args) => {
     <slum-input
       placeholder=${args.placeholder}
       variant=${args.variant}
+      size=${args.size}
+      state=${args.state}
     ></slum-input>
   `;
 };
