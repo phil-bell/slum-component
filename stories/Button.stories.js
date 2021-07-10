@@ -29,7 +29,10 @@ export default {
 
 const Template = (args) => {
   return html`
-    <slum-button variant="${args.variant}" size="${args.size}"
+    <slum-button
+      label=${args.label}
+      variant="${args.variant}"
+      size="${args.size}"
       >${args.label}</slum-button
     >
   `;

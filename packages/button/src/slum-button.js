@@ -32,6 +32,8 @@ export class SlumButton extends LionButton {
           --font-size-s: 16px;
           --font-size-xs: 12px;
 
+          --font-family: "Inconsolata", monospace;
+
           --background-color: var(--slum-white);
           --border-color: var(--slum-cyan-dark);
           --font-color: var(--slum-cyan-dark);
@@ -40,7 +42,7 @@ export class SlumButton extends LionButton {
           --hover-font-color: var(--font-color);
           --hover-background-color: var(--background-color);
 
-          font-family: "Inconsolata", monospace;
+          font-family: var(--font-family);
           color: var(--font-color);
           background: var(--background-color);
           border-radius: 5px;
