@@ -48,17 +48,9 @@ export class SlumInput extends LionInput {
           outline: none;
           padding-left: 8px;
         }
-        ::slotted(input:focus) {
+        ::slotted(input:hover) {
           box-shadow: 5px 5px 0 var(--slum-input-border-color);
           outline: none;
-        }
-        ::slotted(input)::placeholder {
-          background: var(--slum-rainbow);
-          color: transparent;
-          font-family: var(--font-family);
-          font-size: var(--slum-input-font-size);
-          -webkit-background-clip: text;
-          -webkit-text-fill-color: transparent;
         }
         .input-group__input:after {
           color: var(--slum-input-after-color, transparent);

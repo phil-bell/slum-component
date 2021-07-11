@@ -42,7 +42,7 @@ export default {
 const Template = (args) => {
   return html`
     <slum-input
-      placeholder=${args.placeholder}
+      label=${args.label}
       variant=${args.variant}
       size=${args.size}
       state=${args.state}
@@ -52,5 +52,5 @@ const Template = (args) => {
 
 export const SlumInput = Template.bind({});
 SlumInput.args = {
-  placeholder: "SlumInput",
+  label: "SlumInput",
 };
