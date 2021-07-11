@@ -1,1 +1,1 @@
-export { SlumButton } from "./src/slum-button";
+export { SlumButton, } from "./src/slum-button";

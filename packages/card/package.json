@@ -1,0 +1,35 @@
+{
+  "name": "@slum-ui/card",
+  "version": "1.0.0",
+  "description": "Card component for slum-ui component library",
+  "main": "main.js",
+  "directories": {
+    "docs": "docs",
+    "tests": "test"
+  },
+  "scripts": {
+    "test": "yarn karma start --coverage --single-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phil-bell/slum-ui.git"
+  },
+  "keywords": [
+    "card",
+    "web",
+    "component",
+    "slum"
+  ],
+  "author": "Philip Bell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/phil-bell/slum-ui/issues"
+  },
+  "homepage": "https://github.com/phil-bell/slum-ui/packages/card/docs#readme",
+  "dependencies": {
+    "lit": "^2.0.0-rc.2"
+  },
+  "devDependencies": {
+    "@open-wc/testing": "^2.5.33"
+  }
+}
