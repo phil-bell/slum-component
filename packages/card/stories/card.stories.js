@@ -3,11 +3,18 @@ import "@slum-ui/card";
 
 export default {
   title: "SlumUI/Card",
-  argTypes: {},
+  argTypes: {
+    variant: {
+      control: {
+        type: "select",
+        options: ["cyan", "pink", "purple"],
+      },
+    },
+  },
 };
 
 const Template = (args) => {
-  return html` <slum-card>${args.slotContent}</slum-card> `;
+  return html` <slum-card variant=${args.variant}>${args.slotContent}</slum-card> `;
 };
 
 export const SlumCard = Template.bind({});

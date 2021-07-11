@@ -37,9 +37,14 @@ export class SlumCard extends LitElement {
         }
 
         .card{
-          border: 1px solid var(--slum-grey);
+          border: 1px solid var(--slum-grey-light);
           border-bottom-color: var(--slum-card-border-color);
           border-radius: 4px;
+          padding: 20px;
+        }
+
+        .card:hover{
+          box-shadow: 5px 5px 0 var(--slum-card-border-color);
         }
 
         :host([variant="cyan"]) {
