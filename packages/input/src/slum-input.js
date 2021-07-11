@@ -35,6 +35,8 @@ export class SlumInput extends LionInput {
           --font-family: "Inconsolata", monospace;
 
           --slum-input-border-color: var(--slum-pink);
+          --slum-input-label-top: 21px;
+          --slum-input-label-left: 6px;
 
           font-family: var(--font-family);
         }
@@ -52,12 +54,15 @@ export class SlumInput extends LionInput {
           box-shadow: 5px 5px 0 var(--slum-input-border-color);
           outline: none;
         }
-        :slotted(label){
+        ::slotted(label) {
           position: relative;
-          top: 21px;
-          left: 6px;
+          top: var(--slum-input-label-top);
+          left: var(--slum-input-label-left);
         }
-
+        ::slotted(input:active) {
+          --slum-input-label-top: 0;
+          --slum-input-label-left: 0;
+        }
         .input-group__input:after {
           color: var(--slum-input-after-color, transparent);
           content: var(--slum-input-after-content);
