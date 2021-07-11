@@ -52,6 +52,12 @@ export class SlumInput extends LionInput {
           box-shadow: 5px 5px 0 var(--slum-input-border-color);
           outline: none;
         }
+        :slotted(label){
+          position: relative;
+          top: 21px;
+          left: 6px;
+        }
+
         .input-group__input:after {
           color: var(--slum-input-after-color, transparent);
           content: var(--slum-input-after-content);
