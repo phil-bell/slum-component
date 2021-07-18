@@ -3,7 +3,6 @@ on: push
 
 jobs:
   run:
-    name: Building Storybook
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
