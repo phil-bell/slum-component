@@ -29,5 +29,7 @@ export const coreStyles = css`
     --font-size-xs: 12px;
 
     --font-family: "Inconsolata", monospace;
+
+    font-family: var(--font-family)
   }
 `;
