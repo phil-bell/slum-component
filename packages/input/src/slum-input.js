@@ -35,7 +35,7 @@ export class SlumInput extends LionInput {
           --font-family: "Inconsolata", monospace;
 
           --slum-input-border-color: var(--slum-pink);
-          --slum-input-label-top: 21px;
+          --slum-input-label-top: 24px;
           --slum-input-label-left: 6px;
 
           font-family: var(--font-family);
@@ -55,14 +55,13 @@ export class SlumInput extends LionInput {
           outline: none;
         }
         ::slotted(label) {
+          transition: all 0.2s ease 0s;
           position: relative;
+          color: var(--slum-grey);
           top: var(--slum-input-label-top);
           left: var(--slum-input-label-left);
         }
-        ::slotted(input:active) {
-          --slum-input-label-top: 0;
-          --slum-input-label-left: 0;
-        }
+
         .input-group__input:after {
           color: var(--slum-input-after-color, transparent);
           content: var(--slum-input-after-content);
@@ -87,10 +86,12 @@ export class SlumInput extends LionInput {
         :host([size="medium"]) {
           --slum-input-font-size: var(--font-size);
           --slum-input-height: 30px;
+          --slum-input-label-top: 27px;
         }
         :host([size="large"]) {
           --slum-input-font-size: var(--font-size-l);
           --slum-input-height: 35px;
+          --slum-input-label-top: 30px;
         }
         :host([state="success"]) {
           --slum-input-after-content: "👍";
@@ -99,6 +100,10 @@ export class SlumInput extends LionInput {
         :host([state="error"]) {
           --slum-input-after-content: "💥";
           --slum-input-after-color: var(--slum-pink);
+        }
+        :host([focused]), :host([filled]) {
+          --slum-input-label-top: 0;
+          --slum-input-label-left: 0;
         }
       `,
     ];
