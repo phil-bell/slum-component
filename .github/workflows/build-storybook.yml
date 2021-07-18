@@ -12,7 +12,10 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v1
         with:
-          node-version: 12.x
+          node-version: 14.x
+
+      - name: Install npm 7
+        run: npm i -g npm@7
 
       - name: Install dependencies
         run: npm install
