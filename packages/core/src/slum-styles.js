@@ -1,6 +1,7 @@
 import { css } from "lit";
 
 export const coreStyles = css`
+  @import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap");
   :host {
     --slum-cyan: #7be4d5;
     --slum-cyan-dark: #70cec0;

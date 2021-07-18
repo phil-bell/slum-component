@@ -7,7 +7,7 @@ export class SlumLoginButton extends LitElement {
       coreStyles,
       css`
         :host .logout__text--username {
-          font-family: var(--slum-font);
+          font-family: var(--font-family);
           color: var(--slum-purple);
         }
       `,
