@@ -3,6 +3,9 @@ import "@slum-ui/button";
 
 export default {
   title: "SlumUI/Button",
+  args: {
+    label: "SlumButton",
+  },
   argTypes: {
     variant: {
       control: {
@@ -39,6 +42,3 @@ const Template = (args) => {
 };
 
 export const SlumButton = Template.bind({});
-SlumButton.args = {
-  label: "SlumButton",
-};

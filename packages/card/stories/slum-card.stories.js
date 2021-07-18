@@ -14,7 +14,9 @@ export default {
 };
 
 const Template = (args) => {
-  return html` <slum-card variant=${args.variant}>${args.slotContent}</slum-card> `;
+  return html`
+    <slum-card variant=${args.variant}>${args.slotContent}</slum-card>
+  `;
 };
 
 export const SlumCard = Template.bind({});
