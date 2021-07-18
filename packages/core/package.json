@@ -1,7 +1,7 @@
 {
-  "name": "@slum-ui/input",
+  "name": "@slum-ui/core",
   "version": "1.0.0",
-  "description": "Input component for slum-ui component library",
+  "description": "Core component from the Slum component library",
   "main": "main.js",
   "directories": {
     "docs": "docs",
@@ -15,20 +15,19 @@
     "url": "git+https://github.com/phil-bell/slum-ui.git"
   },
   "keywords": [
-    "input",
     "web",
     "component",
-    "slum"
+    "javascript",
+    "core"
   ],
   "author": "Philip Bell",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/phil-bell/slum-ui/issues"
   },
-  "homepage": "https://github.com/phil-bell/slum-ui/packages/input/docs#readme",
+  "homepage": "https://github.com/phil-bell/slum-uipackages/core/docs#readme",
   "dependencies": {
-    "@slum-ui/core": "1.0.0",
-    "@lion/input": "^0.14.1",
+    "@lion/core": "^0.12.0",
     "lit": "^2.0.0-rc.2"
   },
   "devDependencies": {
