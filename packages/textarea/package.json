@@ -1,7 +1,7 @@
 {
-  "name": "@slum-ui/button",
+  "name": "@slum-ui/textarea",
   "version": "1.0.1",
-  "description": "Button component from the Slum component library",
+  "description": "Textarea component for slum-ui component library",
   "main": "main.js",
   "directories": {
     "docs": "docs",
@@ -15,21 +15,20 @@
     "url": "git+https://github.com/phil-bell/slum-ui.git"
   },
   "keywords": [
+    "textarea",
     "web",
     "component",
-    "javascript",
-    "button"
+    "slum"
   ],
   "author": "Philip Bell",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/phil-bell/slum-ui/issues"
   },
-  "homepage": "https://github.com/phil-bell/slum-uipackages/button/docs#readme",
+  "homepage": "https://github.com/phil-bell/slum-ui/packages/textarea/docs#readme",
   "dependencies": {
-    "@lion/core": "^0.18.1",
-    "@lion/button": "^0.14.1",
     "@slum-ui/core": "1.0.0",
+    "@lion/textarea": "^0.13.4",
     "lit": "^2.0.0-rc.2"
   },
   "devDependencies": {
