@@ -29,7 +29,7 @@
   "dependencies": {
     "@lion/core": "^0.18.1",
     "@lion/button": "^0.14.1",
-    "@slum-ui/core": "1.0.0",
+    "@slum-ui/core": "1.0.1",
     "lit": "^2.0.0-rc.2"
   },
   "devDependencies": {
