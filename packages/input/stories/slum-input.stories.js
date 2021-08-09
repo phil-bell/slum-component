@@ -1,13 +1,6 @@
 import { html } from "lit-html";
 import "@slum-ui/input";
 
-const code = `
-<slum-input
-  placeholder="SlumInput"
-  variant="pink"
-  size="small"
-></slum-input>`;
-
 export default {
   title: "SlumUI/Input",
   argTypes: {
@@ -27,13 +20,6 @@ export default {
       control: {
         type: "select",
         options: ["success", "error"],
-      },
-    },
-  },
-  parameters: {
-    docs: {
-      source: {
-        code: code,
       },
     },
   },
