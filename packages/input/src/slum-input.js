@@ -9,8 +9,9 @@ export class SlumInput extends LionInput {
       css`
         :host {
           --slum-input-border-color: var(--slum-pink);
-          --slum-input-label-top: 24px;
+          --slum-input-label-top: 23px;
           --slum-input-label-left: 6px;
+          --slum-input-after-top: 1px;
         }
         ::slotted(input) {
           border: 2px solid var(--slum-grey-light);
@@ -40,7 +41,7 @@ export class SlumInput extends LionInput {
           position: relative;
           font-size: 24px;
           right: 34px;
-          top: 1px;
+          top: var(--slum-input-after-top);
         }
         :host([variant="cyan"]) {
           --slum-input-border-color: var(--slum-cyan);
@@ -59,11 +60,13 @@ export class SlumInput extends LionInput {
           --slum-input-font-size: var(--font-size);
           --slum-input-height: 30px;
           --slum-input-label-top: 27px;
+          --slum-input-after-top: 3px;
         }
         :host([size="large"]) {
           --slum-input-font-size: var(--font-size-l);
           --slum-input-height: 35px;
           --slum-input-label-top: 30px;
+          --slum-input-after-top: 6px;
         }
         :host([state="success"]) {
           --slum-input-after-content: "👍";

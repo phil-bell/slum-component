@@ -8,6 +8,7 @@ export const coreStyles = css`
     --slum-pink: #ff487a;
     --slum-pink-dark: #fc3068;
     --slum-purple: #8719b3;
+    --slum-grey: #383838;
     --slum-grey-light: #c2c2c2;
     --slum-grey-lightest: #f3f3f3;
     --slum-white: white;
@@ -29,7 +30,6 @@ export const coreStyles = css`
     --font-size-xs: 12px;
 
     --font-family: "Inconsolata", monospace;
-
-    font-family: var(--font-family)
+    font-family: var(--font-family);
   }
 `;

@@ -1,31 +1,34 @@
 {
-  "name": "@slum-ui/core",
+  "name": "@slum-ui/textarea",
   "version": "1.0.1",
-  "description": "Core component from the Slum component library",
+  "description": "Textarea component for slum-ui component library",
   "main": "main.js",
   "directories": {
     "docs": "docs",
     "tests": "test"
   },
+  "scripts": {
+    "test": "yarn karma start --coverage --single-run"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/phil-bell/slum-ui.git",
-    "directory": "packages/core"
+    "url": "git+https://github.com/phil-bell/slum-ui.git"
   },
   "keywords": [
+    "textarea",
     "web",
     "component",
-    "javascript",
-    "core"
+    "slum"
   ],
   "author": "Philip Bell",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/phil-bell/slum-ui/issues"
   },
-  "homepage": "https://github.com/phil-bell/slum-uipackages/core/docs#readme",
+  "homepage": "https://github.com/phil-bell/slum-ui/packages/textarea/docs#readme",
   "dependencies": {
-    "@lion/core": "^0.12.0",
+    "@slum-ui/core": "1.0.1",
+    "@lion/textarea": "^0.13.4",
     "lit": "^2.0.0-rc.2"
   },
   "devDependencies": {
