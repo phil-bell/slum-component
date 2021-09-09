@@ -1,6 +1,6 @@
 {
   "name": "@slum-ui/textarea",
-  "version": "1.0.4",
+  "version": "1.0.7",
   "description": "Textarea component for slum-ui component library",
   "main": "main.js",
   "directories": {
@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/phil-bell/slum-ui/packages/textarea/docs#readme",
   "dependencies": {
-    "@slum-ui/core": "1.0.1",
+    "@slum-ui/core": "latest",
     "@lion/textarea": "^0.13.4",
     "lit": "^2.0.0-rc.2"
   },
