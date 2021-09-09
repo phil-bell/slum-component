@@ -7,12 +7,10 @@
     "docs": "docs",
     "tests": "test"
   },
-  "scripts": {
-    "test": "yarn karma start --coverage --single-run"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/phil-bell/slum-ui.git"
+    "url": "https://github.com/phil-bell/slum-ui.git",
+    "directory": "packages/core"
   },
   "keywords": [
     "web",

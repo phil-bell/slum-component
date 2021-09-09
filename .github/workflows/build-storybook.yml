@@ -1,9 +1,11 @@
 name: Build Storybook
-on: push
+on:
+  push:
+    branches:
+      - main
 
 jobs:
   run:
-    name: Building Storybook
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo

@@ -1,5 +1,5 @@
 {
-  "name": "@slum-ui/library",
+  "name": "slum-ui",
   "workspaces": [
     "packages/*"
   ],
@@ -8,12 +8,13 @@
   "main": "main.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/phil-bell/slum-ui.git"
+    "url": "https://github.com/phil-bell/slum-ui.git"
   },
   "keywords": [
     "web",
     "component"
   ],
+  "registry":"https://registry.npmjs.com",
   "author": "Philip Bell",
   "license": "MIT",
   "bugs": {

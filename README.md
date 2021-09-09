@@ -5,7 +5,7 @@ Slum ui component library made using web component.
 `## install`
 
 ```bash
-npm install @slum-ui/library
+npm install slum-ui
 ```
 
 `## demo`

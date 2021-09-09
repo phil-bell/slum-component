@@ -12,7 +12,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/phil-bell/slum-ui.git"
+    "url": "https://github.com/phil-bell/slum-ui.git",
+    "directory": "packages/input"
   },
   "keywords": [
     "input",
