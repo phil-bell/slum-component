@@ -106,3 +106,5 @@ dist
 .editorconfig
 
 .vscode
+
+storybook-static/
