@@ -1,6 +1,6 @@
 {
   "name": "@slum-ui/button",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Button component from the Slum component library",
   "main": "main.js",
   "directories": {
@@ -27,6 +27,7 @@
     "url": "https://github.com/phil-bell/slum-ui/issues"
   },
   "homepage": "https://github.com/phil-bell/slum-uipackages/button/docs#readme",
+  "readme": "https://github.com/phil-bell/slum-uipackages/button/docs#readme",
   "dependencies": {
     "@lion/core": "^0.18.1",
     "@lion/button": "^0.14.1",
