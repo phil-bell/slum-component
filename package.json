@@ -3,7 +3,7 @@
   "workspaces": [
     "packages/*"
   ],
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Slum component library of web components",
   "main": "main.js",
   "repository": {
