@@ -22,10 +22,11 @@
   },
   "homepage": "https://github.com/phil-bell/slum-ui#readme",
   "dependencies": {
-    "@slum-ui/button": "1.0.2",
-    "@slum-ui/card": "1.0.2",
-    "@slum-ui/input": "1.0.2",
-    "@slum-ui/nav": "1.0.2",
+    "@slum-ui/button": "1.0.3",
+    "@slum-ui/card": "1.0.5",
+    "@slum-ui/input": "1.0.3",
+    "@slum-ui/nav": "1.0.3",
+    "@slum-ui/textarea": "1.0.5",
     "chai": "^4.3.4",
     "karma": "^6.3.2",
     "lit": "2.0.0-rc.2"

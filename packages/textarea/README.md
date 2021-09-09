@@ -1,11 +1,11 @@
-# `@slum-ui/root`
+# `@slum-ui/textarea`
 
 Slum ui component library made using web component.
 
 ## `install`
 
 ```bash
-npm install @slum-ui/root
+npm install @slum-ui/textarea
 ```
 
 ## `demo`
@@ -14,3 +14,12 @@ Take a look at out public Storybook that has all the available components with t
 
 https://storybook.slumlord.london
 
+## `usage`
+
+### `example`
+```html
+    <slum-textarea
+      label="Example Label"
+      variant="cyan"
+    ></slum-textarea>
+```
