@@ -1,6 +1,6 @@
 {
   "name": "@slum-ui/card",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "description": "Card component for slum-ui component library",
   "main": "main.js",
   "directories": {
@@ -26,8 +26,7 @@
   "bugs": {
     "url": "https://github.com/phil-bell/slum-ui/issues"
   },
-  "homepage": "https://github.com/phil-bell/slum-ui/packages/card/docs#readme",
-  "readme": "https://github.com/phil-bell/slum-ui/packages/card/docs#readme",
+  "homepage": "https://github.com/phil-bell/slum-ui/tree/main/packages/card",
   "dependencies": {
     "@slum-ui/core": "1.0.1",
     "lit": "^2.0.0-rc.2"
