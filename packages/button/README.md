@@ -12,7 +12,7 @@ npm install @slum-ui/button
 
 Take a look at out public Storybook that has all the available components with their various configuration editable:
 
-https://storybook.slumlord.london/
+https://slumlords.london/slum-ui//
 
 ## `usage`
 

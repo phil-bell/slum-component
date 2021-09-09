@@ -1,6 +1,6 @@
 {
   "name": "@slum-ui/input",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Input component for slum-ui component library",
   "main": "main.js",
   "directories": {
@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/phil-bell/slum-ui/tree/main/packages/input",
   "dependencies": {
-    "@slum-ui/core": "1.0.1",
+    "@slum-ui/core": "latest",
     "@lion/input": "^0.14.1",
     "lit": "^2.0.0-rc.2"
   },

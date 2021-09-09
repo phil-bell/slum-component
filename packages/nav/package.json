@@ -1,6 +1,6 @@
 {
   "name": "@slum-ui/nav",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Nav component for slum-ui component library",
   "main": "main.js",
   "directories": {
@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/phil-bell/slum-ui/tree/main/packages/nav",
   "dependencies": {
-    "@slum-ui/core": "1.0.1",
+    "@slum-ui/core": "latest",
     "@slum-ui/button": "1.0.3",
     "lit": "^2.0.0-rc.2"
   },
