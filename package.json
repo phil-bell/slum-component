@@ -1,5 +1,5 @@
 {
-  "name": "@slum-ui/library",
+  "name": "slum-ui",
   "workspaces": [
     "packages/*"
   ],
@@ -8,12 +8,13 @@
   "main": "main.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/phil-bell/slum-ui.git"
+    "url": "https://github.com/phil-bell/slum-ui.git"
   },
   "keywords": [
     "web",
     "component"
   ],
+  "registry":"https://registry.npmjs.com",
   "author": "Philip Bell",
   "license": "MIT",
   "bugs": {
@@ -23,6 +24,7 @@
   "dependencies": {
     "@slum-ui/button": "1.0.0",
     "@slum-ui/card": "1.0.0",
+    "@slum-ui/core": "1.0.0",
     "@slum-ui/input": "1.0.0",
     "@slum-ui/nav": "1.0.0",
     "chai": "^4.3.4",
