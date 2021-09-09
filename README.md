@@ -1,18 +1,18 @@
-`# slum-ui`
+# `@slum-ui/root`
 
 Slum ui component library made using web component.
 
-`## install`
+## `install`
 
 ```bash
-npm install slum-ui
+npm install @slum-ui/root
 ```
 
-`## demo`
+## `demo`
 
-Take a look at out public Storybook that has all the availible components with their various configation editable:
+Take a look at out public Storybook that has all the available components with their various configuration editable:
 
 https://storybook.slumlord.london
 
-`## usage`
+## `usage`
 

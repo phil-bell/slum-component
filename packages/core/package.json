@@ -1,6 +1,6 @@
 {
   "name": "@slum-ui/core",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Core component from the Slum component library",
   "main": "main.js",
   "directories": {
@@ -24,6 +24,7 @@
     "url": "https://github.com/phil-bell/slum-ui/issues"
   },
   "homepage": "https://github.com/phil-bell/slum-uipackages/core/docs#readme",
+  "readme": "https://github.com/phil-bell/slum-uipackages/core/docs#readme",
   "dependencies": {
     "@lion/core": "^0.12.0",
     "lit": "^2.0.0-rc.2"

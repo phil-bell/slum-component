@@ -1,20 +1,20 @@
 {
-  "name": "slum-ui",
+  "name": "@slum-ui/root",
   "workspaces": [
     "packages/*"
   ],
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Slum component library of web components",
   "main": "main.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/phil-bell/slum-ui.git"
+    "url": "git+https://github.com/phil-bell/slum-ui.git"
   },
   "keywords": [
     "web",
     "component"
   ],
-  "registry":"https://registry.npmjs.com",
+  "registry": "https://registry.npmjs.com",
   "author": "Philip Bell",
   "license": "MIT",
   "bugs": {
@@ -22,10 +22,10 @@
   },
   "homepage": "https://github.com/phil-bell/slum-ui#readme",
   "dependencies": {
-    "@slum-ui/button": "1.0.1",
-    "@slum-ui/card": "1.0.1",
-    "@slum-ui/input": "1.0.1",
-    "@slum-ui/nav": "1.0.1",
+    "@slum-ui/button": "1.0.2",
+    "@slum-ui/card": "1.0.2",
+    "@slum-ui/input": "1.0.2",
+    "@slum-ui/nav": "1.0.2",
     "chai": "^4.3.4",
     "karma": "^6.3.2",
     "lit": "2.0.0-rc.2"
