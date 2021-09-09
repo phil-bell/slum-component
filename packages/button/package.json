@@ -1,6 +1,6 @@
 {
   "name": "@slum-ui/button",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Button component from the Slum component library",
   "main": "main.js",
   "directories": {

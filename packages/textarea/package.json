@@ -1,6 +1,6 @@
 {
   "name": "@slum-ui/textarea",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Textarea component for slum-ui component library",
   "main": "main.js",
   "directories": {
