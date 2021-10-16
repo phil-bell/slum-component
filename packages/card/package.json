@@ -1,6 +1,6 @@
 {
   "name": "@slum-ui/card",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Card component for slum-ui component library",
   "main": "main.js",
   "directories": {
