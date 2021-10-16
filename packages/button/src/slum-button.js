@@ -109,6 +109,24 @@ export class SlumButton extends LionButton {
     ];
   }
 
+  constructor() {
+    super()
+    this.addEventListener("click", this.handleClick)
+  }
+
+  static get properties() {
+    return {
+      href: {
+        type: String,
+        attribute: href
+      }
+    }
+  }
+
+  handleClick() {
+    window.location = this.href
+  }
+
   static get properties() {
     return {
       variant: {
