@@ -10,6 +10,9 @@ export class SlumLoginButton extends LitElement {
           font-family: var(--font-family);
           color: var(--slum-purple);
         }
+        :host([end]) {
+          margin-left: auto;
+        }
       `,
     ];
   }

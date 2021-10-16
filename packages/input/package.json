@@ -1,6 +1,6 @@
 {
   "name": "@slum-ui/input",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Input component for slum-ui component library",
   "main": "main.js",
   "directories": {
