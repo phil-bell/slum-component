@@ -1,5 +1,5 @@
-import { html } from "lit-html";
 import "@slum-ui/button";
+import { html } from "lit-html";
 
 export default {
   title: "SlumUI/Button",
@@ -27,6 +27,11 @@ export default {
         options: ["large", "medium", "small"],
       },
     },
+    href: {
+      control: {
+        type: "input"
+      }
+    }
   },
 };
 
@@ -36,6 +41,7 @@ const Template = (args) => {
       label=${args.label}
       variant="${args.variant}"
       size="${args.size}"
+      href="${args.href}"
       >${args.label}</slum-button
     >
   `;
